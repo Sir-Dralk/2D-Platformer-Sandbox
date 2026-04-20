@@ -1,0 +1,24 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement name="root" style="flex-grow: 1; justify-content: flex-start; align-items: stretch; width: 100%; height: 100%;">
+        <ui:VisualElement name="topBar" style="flex-grow: 1; align-items: center; align-content: auto; justify-content: flex-start; flex-direction: row; flex-wrap: wrap; white-space: normal; -unity-text-align: upper-left; align-self: auto; top: auto; left: auto; right: 0%; margin-top: 1%; margin-left: 1%; height: auto; max-height: 10%; min-height: 10%;">
+            <ui:VisualElement name="LeftContainer" style="flex-grow: 1; align-items: flex-start; align-content: auto; justify-content: flex-start; flex-direction: row; flex-wrap: wrap; white-space: normal; -unity-text-align: upper-left; align-self: auto; top: auto; min-height: auto;">
+                <ui:VisualElement name="HealthBarContainer" style="flex-grow: 1; width: 200px; height: 40px; background-color: rgb(197, 49, 49); flex-direction: row; flex-wrap: nowrap;">
+                    <ui:VisualElement name="HealthBarFill" style="flex-grow: 0; background-color: rgb(82, 188, 70); width: 100%; height: 100%; flex-shrink: 0;"/>
+                </ui:VisualElement>
+                <ui:VisualElement name="LivesContainer" style="flex-grow: 1; flex-direction: row; align-self: stretch; justify-content: flex-start; align-items: center; flex-wrap: nowrap; padding-left: 15px; align-content: auto;">
+                    <ui:VisualElement name="LivesTexture" style="flex-grow: 1; background-image: url(&quot;project://database/Assets/Textures/Collectables/Heart/heart%20pixel.png?fileID=2800000&amp;guid=916658686944baa458749369e0896146&amp;type=3#heart pixel&quot;); width: 25px; height: 25px; min-height: auto; min-width: auto; max-width: 25px; max-height: 25px;"/>
+                    <ui:Label text="x " name="LivesXLabel" double-click-selects-word="true" style="-unity-text-align: middle-center; color: rgb(255, 0, 0); flex-direction: row; justify-content: flex-start; align-items: stretch; align-self: auto;"/>
+                    <ui:Label text="0 " name="LivesValueLabel" double-click-selects-word="true" style="-unity-text-align: middle-center; color: rgb(255, 0, 0); flex-direction: row; justify-content: flex-start; align-items: stretch; align-self: auto;"/>
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:VisualElement name="MiddleContainer" style="flex-grow: 1; align-self: auto; align-items: center; align-content: auto; justify-content: center; flex-wrap: nowrap; flex-direction: row; top: auto; flex-shrink: 1; -unity-text-align: upper-left;">
+                <ui:VisualElement name="CollectableTexture" style="flex-grow: 1; background-image: url(&quot;project://database/Assets/Textures/Collectables/Coin/Coin_Big.png?fileID=2800000&amp;guid=b17897dc2fd3ff74685a62204cba4884&amp;type=3#Coin_Big&quot;); width: 25px; height: 25px; min-height: auto; min-width: auto; max-width: 25px; max-height: 25px;"/>
+                <ui:Label text="x " name="LivesXLabel" double-click-selects-word="true" style="-unity-text-align: middle-center; color: rgb(255, 189, 0); flex-direction: row; justify-content: flex-start; align-items: stretch; align-self: auto;"/>
+                <ui:Label text="0 " name="CollectableValueLabel" double-click-selects-word="true" style="-unity-text-align: middle-center; color: rgb(255, 189, 0);"/>
+            </ui:VisualElement>
+            <ui:VisualElement name="RightContainer" style="flex-grow: 1; top: auto;"/>
+        </ui:VisualElement>
+        <ui:VisualElement name="middleBar" style="flex-grow: 1;"/>
+        <ui:VisualElement name="bottomBar" style="flex-grow: 1;"/>
+    </ui:VisualElement>
+</ui:UXML>

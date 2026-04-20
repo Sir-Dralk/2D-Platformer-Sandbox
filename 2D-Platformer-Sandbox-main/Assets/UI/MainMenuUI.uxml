@@ -1,0 +1,12 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement name="MainContainer" style="flex-grow: 1; background-color: rgb(192, 170, 130); background-image: url(&quot;project://database/Assets/Textures/Backgrounds/TestBG.jpg?fileID=2800000&amp;guid=34f9a4772e6ec4e418b99c11f562bfac&amp;type=3#TestBG&quot;);">
+        <ui:VisualElement name="TopContainer" style="flex-grow: 1; justify-content: flex-end; align-items: center; width: auto; height: auto;">
+            <ui:Label text="Definitely not a souls game" name="TitelLabel" style="font-size: 50px; -unity-font-style: bold; color: rgb(0, 0, 0); -unity-text-outline-color: rgb(255, 255, 255); -unity-text-outline-width: 1px;"/>
+        </ui:VisualElement>
+        <ui:VisualElement name="MiddleContainer" style="flex-grow: 1; justify-content: center; align-items: center; width: auto; height: auto;">
+            <ui:Button text="New game" name="NewGameButton" style="width: auto; min-width: 20%; min-height: 5%;"/>
+            <ui:Button text="Quit" name="QuitButton" style="min-width: 20%; min-height: 5%;"/>
+        </ui:VisualElement>
+        <ui:VisualElement name="BottomContainer" style="flex-grow: 1; justify-content: center; align-items: center; width: auto; height: auto;"/>
+    </ui:VisualElement>
+</ui:UXML>

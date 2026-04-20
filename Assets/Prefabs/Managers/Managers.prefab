@@ -435,6 +435,7 @@ MonoBehaviour:
   gameScenes:
   - Scene 1
   - Scene 2
+  - Scene 3
   winMenuScene: Win Scene
   gameOverMenuScene: Gameover Scene
 --- !u!1 &4039156489378449787
